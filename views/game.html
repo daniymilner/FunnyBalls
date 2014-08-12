@@ -1,1 +1,9 @@
-<div ng-controller="gameController">game</div>
+<div ng-controller="gameController">
+	<div class="game-wrapper">
+		<div class="broad-line" ng-repeat="item in broad">
+			<p class="broad-item" ng-repeat="it in item" ng-class="it.type" ng-click="removeItems(it);">
+				{{it.toDelete}}
+			</p>
+		</div>
+	</div>
+</div>

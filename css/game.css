@@ -1,0 +1,22 @@
+.game-wrapper{
+}
+.game-wrapper .broad-line{
+	display: -webkit-box;
+}
+.game-wrapper .broad-item{
+	margin: 1px;
+	width: 40px;
+	height: 40px;
+}
+.game-wrapper .broad-item.red{
+	background: red;
+}
+.game-wrapper .broad-item.blue{
+	background: blue;
+}
+.game-wrapper .broad-item.green{
+	background: green;
+}
+.game-wrapper .broad-item.yellow{
+	background: yellow;
+}
