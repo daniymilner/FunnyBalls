@@ -7,7 +7,7 @@ var app = angular.module('funnyApp').config(['$stateProvider','$urlRouterProvide
 			url: '/',
 			views: {
 				content: {
-					templateUrl: 'views/game.html'
+					templateUrl: 'views/index.html'
 				}
 			}
 		})
@@ -16,6 +16,14 @@ var app = angular.module('funnyApp').config(['$stateProvider','$urlRouterProvide
 			views: {
 				content: {
 					templateUrl: 'views/login.html'
+				}
+			}
+		})
+		.state('game', {
+			url: '/game',
+			views: {
+				content: {
+					templateUrl: 'views/game.html'
 				}
 			}
 		})
