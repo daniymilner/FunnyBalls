@@ -1,0 +1,20 @@
+{
+	"name": "funny-balls",
+	"version": "0.0.0",
+	"homepage": "https://github.com/DaniyMilner/FunnyBalls",
+	"authors": [
+		"Aleksey Olenyuk <alo@qapint.com>"
+	],
+	"description": "funny game",
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"angular": "~1.2.21"
+	}
+}
