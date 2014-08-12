@@ -1,5 +1,6 @@
 'use strict';
 
 angular.module('funnyApp', ['ui.router',
-							'LocalStorageModule'])
+							'LocalStorageModule',
+							'ngCookies'])
 	.run([function(){}]);

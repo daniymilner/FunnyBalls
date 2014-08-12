@@ -1,11 +1,11 @@
 'use strict';
-app.controller('loginController', ['$scope', '$state', 'localStorageService', '$rootScope',
-	function($scope, $state, localStorageService, $rootScope){
+app.controller('loginController', ['$scope', '$state', '$rootScope', '$cookieStore',
+	function($scope, $state, $rootScope, $cookieStore){
 		$scope.userName = '';
 		$scope.signIn = function(){
 			if($scope.userName){
 				$rootScope.userName = $scope.userName;
-				localStorageService.add('userName', $scope.userName);
+				$cookieStore.put('userName', $scope.userName);
 				$state.go('index');
 			}
 		}
